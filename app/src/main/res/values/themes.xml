@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LudoMax" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorAccent">@color/ludo_yellow</item>
+    </style>
+
+    <style name="Theme.LudoMax.Splash" parent="Theme.LudoMax" />
+
+    <style name="LudoDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MenuButton">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+</resources>
